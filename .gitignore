@@ -1,0 +1,11 @@
+node_modules/
+dist/
+build/
+*.zip
+*.rar
+*.7z
+*.mp4
+*.mov
+*.psd
+.DS_Store
+Thumbs.db

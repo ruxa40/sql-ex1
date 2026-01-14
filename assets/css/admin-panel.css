@@ -1,0 +1,142 @@
+/* Основные стили */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --danger-color: #e74c3c;
+    --success-color: #2ecc71;
+    --font-family: 'Roboto', sans-serif;
+    --background-light: #f4f7fc;
+    --background-dark: #34495e;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--background-light);
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+/* Боковая панель */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background: var(--secondary-color);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: transparent;
+    transition: background 0.3s;
+}
+
+.sidebar a:hover {
+    background: var(--primary-color);
+}
+
+.sidebar a.active {
+    background: var(--primary-color);
+}
+
+/* Основной контент */
+#main {
+    margin-left: 270px;
+    padding: 20px;
+    background: #fff;
+    min-height: 100vh;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: var(--background-dark);
+    color: #fff;
+}
+
+table tr:hover {
+    background: var(--background-light);
+}
+
+table td button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+table td button:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+table td .ban-btn {
+    background: var(--danger-color);
+    color: #fff;
+}
+
+table td .ban-btn:hover {
+    background: darkred;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    #main {
+        margin-left: 220px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #main {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,33 @@
+User Answer (normalized): select model, speed, hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model, speed, hd from pc where price < 500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
+User Answer (normalized): select model,speed,hd \r\nfrom pc \r\nwhere price<500
+Correct Answer (normalized): select model,speed,hd from pc where price<500
+
